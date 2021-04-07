@@ -1,0 +1,7 @@
+New Budget 18000 USD monthly: 
+
+- I think it would be good to increase the EC2 instances quantity to 8 and their capacity.
+- The previous will also update some values in the private and public ELBs.
+- I would add a secondary RDS DB and increase the hard drive capacity to 10 TB of all the DBs since the reason of the budget increase could be directly related to more application use.
+
+https://calculator.aws/#/estimate?id=0c14711d7488269def3bf495288bcf22ef22e059

@@ -1,0 +1,7 @@
+New Budget 6500 USD monthly:
+
+ - I think we could only use 6 web servers and they should be reserved instances for 1 year.
+ - We could use only  6 app servers (this will also reduce the ELBs costs since we will be balacing less servers)
+ - For the database we might be OK with only having 8 vCPU and 32GB RAM for the primary DB and less for the replica DB since it is only a read replica (8 vCPU & 16GB RAM).
+
+https://calculator.aws/#/estimate?id=8034debde7bfbd12064317ed7023bbd2dea9ed00

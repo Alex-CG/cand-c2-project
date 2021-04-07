@@ -1,0 +1,16 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate ACG - 6500 budget,US East (N. Virginia),PrimaryVPC,Amazon Virtual Private Cloud (VPC),0,1792,21504.00,USD,"Working days per month (30), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Number of subnet associations (4), Number of Site-to-Site VPN Connections (0)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),NAT,Amazon Virtual Private Cloud (VPC),0,1675.35,20104.20,USD,Number of NAT Gateways (1)
+My Estimate ACG - 6500 budget,US East (N. Virginia),S3,S3 Standard,0,24.8,297.60,USD,S3 Standard storage (1 TB per month)
+My Estimate ACG - 6500 budget,US East (N. Virginia),S3,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),Web Servers,Amazon EC2,0,399.23,4790.76,USD,"Operating system (Linux), Quantity (6), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (50 GB), Instance type (t4g.xlarge)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),App Servers,Amazon EC2,0,618.67,7424.04,USD,"Operating system (Linux), Quantity (6), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (50 GB), Instance type (t4g.xlarge)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),PrimaryDB,Amazon RDS for MySQL,0,1257.52,15090.24,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (1), Instance type (db.m4.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),ReadReplicaDB,Amazon RDS for MySQL,0,608.32,7299.84,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (1), Instance type (db.cv11.2xlarge), Deployment option (Single-AZ), Pricing strategy (OnDemand)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),ELB-Public,Network Load Balancer,0,104.13,1249.56,USD,"Number of Network Load Balancers (6), Average TLS connection duration (2 seconds), Average TCP connection duration (2 seconds), Average number of new TCP connections (10 per second), Average number of new TLS connections (10 per second)"
+My Estimate ACG - 6500 budget,US East (N. Virginia),ELB-Private,Application Load Balancer,0,101.35,1216.20,USD,Number of Application Load Balancers (6)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

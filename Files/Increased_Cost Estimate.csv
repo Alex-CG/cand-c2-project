@@ -1,0 +1,17 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate ACG - 20000 budget,US East (N. Virginia),PrimaryVPC,Amazon Virtual Private Cloud (VPC),0,1792,21504.00,USD,"Working days per month (30), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Number of subnet associations (4), Number of Site-to-Site VPN Connections (0)"
+My Estimate ACG - 20000 budget,US East (N. Virginia),NAT,Amazon Virtual Private Cloud (VPC),0,1675.35,20104.20,USD,Number of NAT Gateways (1)
+My Estimate ACG - 20000 budget,US East (N. Virginia),S3,S3 Standard,0,25.69,308.28,USD,S3 Standard storage (1 TB per month)
+My Estimate ACG - 20000 budget,US East (N. Virginia),S3,Data Transfer,0,0,0.00,USD,
+My Estimate ACG - 20000 budget,US East (N. Virginia),Web Servers,Amazon EC2,0,1649.79,19797.48,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (100 GB), Instance type (t4g.2xlarge)"
+My Estimate ACG - 20000 budget,US East (N. Virginia),App Servers,Amazon EC2,0,1649.79,19797.48,USD,"Operating system (Linux), Quantity (8), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage amount (100 GB), Instance type (t4g.2xlarge)"
+My Estimate ACG - 20000 budget,US East (N. Virginia),PrimaryDB,Amazon RDS for MySQL,0,4400.66,52807.92,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (10 TB), Quantity (1), Instance type (db.m4.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate ACG - 20000 budget,US East (N. Virginia),ReadReplicaDB,Amazon RDS for MySQL,0,2200.33,26403.96,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (10 TB), Quantity (1), Instance type (db.m4.4xlarge), Deployment option (Single-AZ), Pricing strategy (OnDemand)"
+My Estimate ACG - 20000 budget,US East (N. Virginia),ELB-Public,Network Load Balancer,0,168.60000000000002,2023.20,USD,"Number of Network Load Balancers (8), Average TLS connection duration (2 seconds), Average TCP connection duration (2 seconds), Average number of new TCP connections (50 per second), Average number of new TLS connections (50 per second)"
+My Estimate ACG - 20000 budget,US East (N. Virginia),ELB-Private,Application Load Balancer,0,178.12,2137.44,USD,Number of Application Load Balancers (8)
+My Estimate ACG - 20000 budget,US East (N. Virginia),SecondaryDB,Amazon RDS for MySQL,0,4400.66,52807.92,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (10 TB), Quantity (1), Instance type (db.m4.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
